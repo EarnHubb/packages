@@ -1,1 +1,180 @@
-<!DOCTYPE html><html><body><h1>Velora Packages</h1><div><h2>Level 1</h2><p>₦9,000</p><a href='https://your-level1-link.com' target='_blank'>Choose Level 1</a></div><div><h2>Level 2</h2><p>₦14,500</p><a href='https://your-level2-link.com' target='_blank'>Choose Level 2</a></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Velora Packages</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#12031f;
+padding:40px 20px;
+}
+
+.packages{
+max-width:1100px;
+margin:auto;
+text-align:center;
+}
+
+.packages h1{
+color:#fff;
+font-size:40px;
+margin-bottom:10px;
+}
+
+.packages p{
+color:#bfbfbf;
+margin-bottom:40px;
+font-size:18px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card{
+background:#1d0c35;
+border:1px solid rgba(255,255,255,.08);
+border-radius:20px;
+padding:35px 25px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 40px rgba(143,76,255,.25);
+}
+
+.plan{
+font-size:26px;
+font-weight:bold;
+color:#ffffff;
+margin-bottom:20px;
+}
+
+.price{
+font-size:48px;
+font-weight:bold;
+color:#d7a4ff;
+margin-bottom:25px;
+}
+
+.features{
+list-style:none;
+margin-bottom:30px;
+}
+
+.features li{
+color:#ddd;
+padding:10px 0;
+border-bottom:1px solid rgba(255,255,255,.05);
+}
+
+.button{
+display:block;
+text-decoration:none;
+background:linear-gradient(90deg,#8a2be2,#b84dff);
+padding:16px;
+border-radius:40px;
+color:#fff;
+font-size:18px;
+font-weight:bold;
+transition:.3s;
+}
+
+.button:hover{
+transform:scale(1.05);
+}
+
+@media(max-width:768px){
+
+.packages h1{
+font-size:30px;
+}
+
+.price{
+font-size:38px;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<section class="packages">
+
+<h1>Choose Your Registration Package</h1>
+
+<p>Select the package that matches your earning goals.</p>
+
+<div class="cards">
+
+<div class="card">
+
+<div class="plan">
+Level 1
+</div>
+
+<div class="price">
+₦9,000
+</div>
+
+<ul class="features">
+<li>✔ AI Learning Access</li>
+<li>✔ Daily Tasks</li>
+<li>✔ Engagement Rewards</li>
+<li>✔ Football Activities</li>
+<li>✔ Referral Earnings</li>
+</ul>
+
+<a href="https://your-level1-link.com"
+target="_blank"
+class="button">
+Choose Level 1
+</a>
+
+</div>
+
+<div class="card">
+
+<div class="plan">
+Level 2
+</div>
+
+<div class="price">
+₦14,500
+</div>
+
+<ul class="features">
+<li>✔ Everything in Level 1</li>
+<li>✔ Higher Daily Earnings</li>
+<li>✔ Premium Tasks</li>
+<li>✔ Priority Support</li>
+<li>✔ Increased Referral Rewards</li>
+</ul>
+
+<a href="https://your-level2-link.com"
+target="_blank"
+class="button">
+Choose Level 2
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
